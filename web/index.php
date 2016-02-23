@@ -1,25 +1,10 @@
 <?php
 
-require('../vendor/autoload.php');
+echo "hello world";
 
-$app = new Silex\Application();
-$app['debug'] = true;
+echo "<br>";
 
-// Register the monolog logging service
-$app->register(new Silex\Provider\MonologServiceProvider(), array(
-  'monolog.logfile' => 'php://stderr',
-));
+echo "this page is created by inzamam malik ";
 
-// Register view rendering
-$app->register(new Silex\Provider\TwigServiceProvider(), array(
-    'twig.path' => __DIR__.'/views',
-));
 
-// Our web handlers
 
-$app->get('/', function() use($app) {
-  $app['monolog']->addDebug('logging output.');
-  return $app['twig']->render('index.twig');
-});
-
-$app->run();
