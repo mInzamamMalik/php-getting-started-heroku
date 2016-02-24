@@ -1,5 +1,23 @@
-<?php
+<html>
+<body>
 
+
+<a href="done.php">another app</a>
+
+
+<form action="done.php" method="post">
+
+  name : <input type="text" name="fname">
+  roll :<input type="text" name="roll">
+  gender :<input type="number" name="gender">
+
+  <input type="submit">
+</form>
+
+<!--
+
+<?php
+/*
 echo "hello world hosted by github";
 
 echo "<br>";
@@ -15,6 +33,12 @@ echo "<br>";
 echo "<br>";
 echo "<br>";
 
+
+////app link:
+////https://stark-bayou-99693.herokuapp.com/
+////
+////myAdmin link:
+////http://www.phpmyadmin.co/
 
 $servername = "sql6.freemysqlhosting.net";
 $username = "sql6108017";
@@ -51,3 +75,18 @@ if ($conn->query($sql) === TRUE) {
 
 //close connection
 $conn->close();
+
+*/?>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
