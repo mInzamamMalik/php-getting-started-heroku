@@ -1,6 +1,6 @@
 <?php
 
-echo "hello world";
+echo "hello world hosted by github";
 
 echo "<br>";
 echo "<br>";
@@ -14,6 +14,8 @@ echo "<br>";
 echo "<br>";
 echo "<br>";
 echo "<br>";
+
+
 $servername = "sql6.freemysqlhosting.net";
 $username = "sql6108017";
 $password = "qy4WKEwXIR";
