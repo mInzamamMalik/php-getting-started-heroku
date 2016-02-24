@@ -3,6 +3,7 @@
 
 
 <?php
+//isset($_POST[name]) ? $_POST[name] : '';
 
 ////app link:
 ////https://stark-bayou-99693.herokuapp.com/

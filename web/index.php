@@ -4,14 +4,24 @@
 
 <a href="done.php">another app</a>
 
+<br><br>
 
 <form action="done.php" method="post">
 
   name : <input type="text" name="fname">
+
+  <br>
+
   roll :<input type="text" name="roll">
+
+  <br>
+
   gender :<input type="number" name="gender">
 
+  <br><br>
+
   <input type="submit">
+
 </form>
 
 <!--
