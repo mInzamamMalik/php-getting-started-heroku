@@ -43,6 +43,21 @@ if ($conn->query($sql) === TRUE) {
 }
 
 
+$sql = "SELECT `gr`, `name`, `roll`, `gender` FROM `classroom` WHERE 1";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "id: " . $row["gr"]. " - Name: " . $row["name"]. " " . $row["roll"]. "<br>";
+    }
+} else {
+    echo "0 results";
+}
+
+
+
+
 //close connection
 $conn->close();
 
