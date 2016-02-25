@@ -1,4 +1,20 @@
 <html>
+
+<head>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+
 <body>
 <!--//fb sdk code start///////////////////////////-->
 <div id="fb-root"></div>
@@ -50,13 +66,13 @@
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
-    echo "Connected successfully  ==>  ";
+    echo " Successfully Connected to Cloud Server ";
 
 
     $sql = "INSERT INTO `classroom`(`name`, `roll`, `gender`) VALUES('$_POST[fname]','$_POST[roll]','$_POST[gender]')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully" . "<br>";
+        echo "<h3><br>"."Congo ". $_POST['fname'] ."! Your Record is Added to Database". "<br></h3>";
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
@@ -78,7 +94,17 @@
             // output data of each row
             while ($row = $result->fetch_assoc()) {
                 //echo "id: " . $row["gr"] . " - Name: " . $row["name"] . " " . $row["roll"] . "<br>";
-                echo "<tr><td>" . $row["gr"] . "</td><td>" . $row["name"] . "</td><td>"  . $row["roll"] . "</td><td>"  . $row["gender"] . "</td></tr>";
+                echo "<tr><td>" . $row["gr"] . "</td><td>" . $row["name"] . "</td><td>"  . $row["roll"] . "</td><td>";
+
+
+                if( $row["gender"] ==1 ){
+                    echo "male";
+
+                }else{
+                    echo "female";
+                }
+
+                echo "</td></tr>";
             }
         } else {
             echo "0 results";

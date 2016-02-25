@@ -21,18 +21,18 @@
   <!--///////fb like button code start/////////-->
 
 <br><br>
-
+<h4>Data Insertion Web Application | powered by php</h4>
 <form action="done.php" method="post">
 
-  name : <input type="text" required="true" name="fname">
+  Name : <input type="text" required="true" name="fname">
 
   <br>
 
-  roll :<input type="number" required="true" name="roll">
+  Roll :<input type="number" required="true" name="roll">
 
   <br>
 
-  gender :
+  Gender :
   <input type="radio" name="gender" value="1" checked> Male
   <input type="radio" name="gender" value="0"> Female<br>
 
@@ -42,6 +42,8 @@
 
 </form>
 
+<h3>an Special thanks to Mam Aniqa Sheerazi</h3>
+    <p>she is really Sincere professor</p>
 <!--
 
 <?php
