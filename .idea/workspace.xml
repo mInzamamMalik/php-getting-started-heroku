@@ -4,6 +4,7 @@
     <list default="true" id="d62aaa1f-eee9-4154-bcd0-c0ccf649cf8e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/done.php" afterPath="$PROJECT_DIR$/done.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="php-getting-started-heroku.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,24 +26,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.77272725">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="done.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="done.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/done.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46363637">
-              <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+            <state vertical-scroll-proportion="-13.076923">
+              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
               <folding>
-                <marker date="1456418791233" expanded="true" signature="684:789" placeholder="INSERT INTO `classroom`... " />
-                <marker date="1456418791233" expanded="true" signature="953:1015" placeholder="SELECT `gr`,... classroom" />
+                <marker date="1456418927144" expanded="true" signature="1525:1630" placeholder="INSERT INTO `classroom`... " />
+                <marker date="1456418927144" expanded="true" signature="1794:1856" placeholder="SELECT `gr`,... classroom" />
               </folding>
             </state>
           </provider>
@@ -60,8 +61,8 @@
         <option value="$PROJECT_DIR$/web/index.php" />
         <option value="$PROJECT_DIR$/web/done.php" />
         <option value="$PROJECT_DIR$/app.json" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/done.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -234,7 +235,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456418615508</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="final">
+      <created>1456418807259</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1456418807259</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -304,8 +311,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1456418791233" expanded="true" signature="684:789" placeholder="INSERT INTO `classroom`... " />
-            <marker date="1456418791233" expanded="true" signature="953:1015" placeholder="SELECT `gr`,... classroom" />
+            <marker date="1456418927144" expanded="true" signature="1525:1630" placeholder="INSERT INTO `classroom`... " />
+            <marker date="1456418927144" expanded="true" signature="1794:1856" placeholder="SELECT `gr`,... classroom" />
           </folding>
         </state>
       </provider>
@@ -323,8 +330,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1456418791233" expanded="true" signature="684:789" placeholder="INSERT INTO `classroom`... " />
-            <marker date="1456418791233" expanded="true" signature="953:1015" placeholder="SELECT `gr`,... classroom" />
+            <marker date="1456418927144" expanded="true" signature="1525:1630" placeholder="INSERT INTO `classroom`... " />
+            <marker date="1456418927144" expanded="true" signature="1794:1856" placeholder="SELECT `gr`,... classroom" />
           </folding>
         </state>
       </provider>
@@ -352,22 +359,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/done.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <marker date="1456418927144" expanded="true" signature="1525:1630" placeholder="INSERT INTO `classroom`... " />
+            <marker date="1456418927144" expanded="true" signature="1794:1856" placeholder="SELECT `gr`,... classroom" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/done.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46363637">
-          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
-          <folding>
-            <marker date="1456418791233" expanded="true" signature="684:789" placeholder="INSERT INTO `classroom`... " />
-            <marker date="1456418791233" expanded="true" signature="953:1015" placeholder="SELECT `gr`,... classroom" />
-          </folding>
+        <state vertical-scroll-proportion="0.77272725">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
