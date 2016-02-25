@@ -24,15 +24,17 @@
 
 <form action="done.php" method="post">
 
-  name : <input type="text" name="fname">
+  name : <input type="text" required="true" name="fname">
 
   <br>
 
-  roll :<input type="text" name="roll">
+  roll :<input type="number" required="true" name="roll">
 
   <br>
 
-  gender :<input type="number" name="gender">
+  gender :
+  <input type="radio" name="gender" value="1" checked> Male
+  <input type="radio" name="gender" value="0"> Female<br>
 
   <br><br>
 
